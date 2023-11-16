@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title><Create Next App</title>
+        <title><Create Next App></title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <section className={utilStyles.headingMd}>
