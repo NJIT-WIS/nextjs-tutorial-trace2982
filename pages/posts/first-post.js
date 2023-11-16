@@ -12,7 +12,9 @@ export default function FirstPost() {
         src="https://connect.facebook.net/en_US/sdk.js"
         strategy="lazyOnload"
         onLoad={() =>
-          console.log(`script loaded correctly, window.FB has been populated`)
+          console.log(
+            `script loaded correctly, window.FB has been populated`
+          )
         }
       />
       <h1>First Post</h1>
@@ -21,3 +23,4 @@ export default function FirstPost() {
       </h2>
     </>
   );
+}
