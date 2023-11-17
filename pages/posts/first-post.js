@@ -14,8 +14,4 @@ export default function FirstPost() {
       </h2>
     </Layout>
   );
-</Link>
-      </h2>
-    </>
-  );
 }
